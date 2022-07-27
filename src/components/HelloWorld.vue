@@ -15,9 +15,7 @@ export default {
     el() {
       this.axios.get("user").then((res) => {
         console.log(res)
-      }).catch(function (error) {
-        console.error(error);
-      });
+      })
     }
   },
 }
