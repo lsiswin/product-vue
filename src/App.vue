@@ -1,10 +1,5 @@
 <template>
-  <router-link to="/test">Test</router-link>
-
-
-
   <router-view/>
-  
 </template>
 
 <style>
